@@ -1,0 +1,76 @@
+﻿.my-form {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    outline: 0px;
+}
+
+#table-tournament {
+    margin: 0px 10%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.table-container {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.column-t {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-t-blue {
+    padding: 12px;
+    height: 100px;
+    width: 180px;
+    background-color: #2980b9;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .button-t-blue:hover {
+        background-color: #1c6ea4;
+        transform: scale(1.05);
+    }
+
+    .button-t-blue:focus {
+        outline: none;
+    }
+
+
+.button-t-red {
+    padding: 12px;
+    height: 100px;
+    width: 180px;
+    background-color: #e74c3c;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .button-t-red:hover {
+        background-color: #c0392b;
+        transform: scale(1.05);
+    }
+
+    .button-t-red:focus {
+        outline: none;
+    }
