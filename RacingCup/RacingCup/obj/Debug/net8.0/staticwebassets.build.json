@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "09f3pQfMp/AtWPm+olVzeEzotlQ+SFw3jBqK61s7c14=",
+  "Hash": "ODHhfwy+siTeYHc43ttccUhiFumnvnwcu7BKXDAkaio=",
   "Source": "RacingCup",
   "BasePath": "_content/RacingCup",
   "Mode": "Default",
@@ -1570,7 +1570,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 04:05:54 GMT"
+          "Value": "Mon, 03 Mar 2025 04:08:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1607,7 +1607,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 04:05:54 GMT"
+          "Value": "Mon, 03 Mar 2025 04:08:26 GMT"
         },
         {
           "Name": "Cache-Control",

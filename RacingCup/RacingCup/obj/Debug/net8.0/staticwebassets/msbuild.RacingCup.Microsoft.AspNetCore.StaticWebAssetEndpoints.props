@@ -28,13 +28,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\TournamentTableStyle.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-LKcXrnVnUwh\u002BX34nbi\u002BVY1XuPOn2VVI6wPl4wcPne48="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1730"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LKcXrnVnUwh\u002BX34nbi\u002BVY1XuPOn2VVI6wPl4wcPne48=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 04:05:54 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1730"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LKcXrnVnUwh\u002BX34nbi\u002BVY1XuPOn2VVI6wPl4wcPne48=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 04:08:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RacingCup/css/TournamentTableStyle.kyxtajqlt6.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\TournamentTableStyle.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kyxtajqlt6"},{"Name":"integrity","Value":"sha256-LKcXrnVnUwh\u002BX34nbi\u002BVY1XuPOn2VVI6wPl4wcPne48="},{"Name":"label","Value":"_content/RacingCup/css/TournamentTableStyle.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1730"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LKcXrnVnUwh\u002BX34nbi\u002BVY1XuPOn2VVI6wPl4wcPne48=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 04:05:54 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1730"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LKcXrnVnUwh\u002BX34nbi\u002BVY1XuPOn2VVI6wPl4wcPne48=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 04:08:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RacingCup/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
