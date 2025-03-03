@@ -1,5 +1,26 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model RacingCup.Models.TournamentTable
+
+<div id="table-tournament">
+    <h2>Tournament Teams - Senior</h2>
+    <div class="table-container">
+        @for (int i = 0; i < Model.SeniorTeams.Count; i++)
+        {
+            <div class="column-t" style="padding: @((i != 0) ? (124 * (Math.Pow(i, 2) - (i-1)))/2 : "0")px 0px">
+                @for (int j = 0; j < Model.SeniorTeams[i].Count; j++)
+                {
+                    <form method="post" asp-controller="TournamentTable" asp-action="Update">
+                        <input type="hidden" name="row" value="@(i)" />
+                        <input type="hidden" name="col" value="@(j)" />
+                        <input type="hidden" name="category" value="Senior" />
+                        <button class="@((Model.SeniorTeams[i][j].Status) ? "button-t-blue" : "button-t-red")"
+                                type="submit"
+                        @((Model.SeniorTeams.Count - 1 != i) && (Model.SeniorTeams[i].Contains(Model.SeniorTeams[i][j]) && Model.SeniorTeams[i + 1].Contains(Model.SeniorTeams[i][j])) ? "disabled" : "")
+                        @((Model.SeniorTeams[i].Count == 1) || !(Model.SeniorTeams[i][j].Status) ? "disabled" : "")>
+                            @(Model.SeniorTeams[i][j].Name)
+                        </button>
+                    </form>
+                }
+            </div>
+        }
+    </div>
+</div>

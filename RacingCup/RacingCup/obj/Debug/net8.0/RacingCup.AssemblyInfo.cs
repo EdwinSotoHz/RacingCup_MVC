@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RacingCup")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+063e5aac1d28cc2b43795679eacf9acd9739ea10")]
 [assembly: System.Reflection.AssemblyProductAttribute("RacingCup")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RacingCup")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

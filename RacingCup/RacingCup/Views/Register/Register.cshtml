@@ -21,7 +21,10 @@
 
                 <div class="form-group">
                     <label for="Category">Categoría:</label>
-                    <input type="text" id="Category" name="Category" class="form-control" required />
+                    <select id="Category" name="Category" class="form-control" required>
+                        <option value="Junior">Junior</option>
+                        <option value="Senior">Senior</option>
+                    </select>
                 </div>
 
                 <div class="form-group">
@@ -38,20 +41,39 @@
         <div class="mt-4">
             <h3>Equipos Registrados:</h3>
             <ul>
-                @for (int i = 0; i < Model.teams.Count; i++)
+                @for (int i = 0; i < Model.JuniorTeams.Count; i++)
                 {
                     <li>
-                        <h4>Ronda @(i + 1)</h4>
+                        <h4>Ronda @(i + 1) - Junior</h4>
                         <ul>
-                            @for (int j = 0; j < Model.teams[i].Count; j++)
+                            @for (int j = 0; j < Model.JuniorTeams[i].Count; j++)
                             {
                                 <li>
-                                    <strong>Nombre:</strong> @(Model.teams[i][j].Name) <br />
-                                    <strong>Integrantes:</strong> @(Model.teams[i][j].Elements) <br />
-                                    <strong>Escuela:</strong> @(Model.teams[i][j].School) <br />
-                                    <strong>Categoría:</strong> @(Model.teams[i][j].Category) <br />
-                                    <strong>Mejor Tiempo:</strong> @(Model.teams[i][j].BestTime) segundos <br />
-                                    <strong>Estatus:</strong> @(Model.teams[i][j].Status ? "Activo" : "Eliminado")
+                                    <strong>Nombre:</strong> @(Model.JuniorTeams[i][j].Name) <br />
+                                    <strong>Integrantes:</strong> @(Model.JuniorTeams[i][j].Elements) <br />
+                                    <strong>Escuela:</strong> @(Model.JuniorTeams[i][j].School) <br />
+                                    <strong>Categoría:</strong> @(Model.JuniorTeams[i][j].Category) <br />
+                                    <strong>Mejor Tiempo:</strong> @(Model.JuniorTeams[i][j].BestTime) segundos <br />
+                                    <strong>Estatus:</strong> @(Model.JuniorTeams[i][j].Status ? "Activo" : "Eliminado")
+                                </li>
+                            }
+                        </ul>
+                    </li>
+                }
+                @for (int i = 0; i < Model.SeniorTeams.Count; i++)
+                {
+                    <li>
+                        <h4>Ronda @(i + 1) - Senior</h4>
+                        <ul>
+                            @for (int j = 0; j < Model.SeniorTeams[i].Count; j++)
+                            {
+                                <li>
+                                    <strong>Nombre:</strong> @(Model.SeniorTeams[i][j].Name) <br />
+                                    <strong>Integrantes:</strong> @(Model.SeniorTeams[i][j].Elements) <br />
+                                    <strong>Escuela:</strong> @(Model.SeniorTeams[i][j].School) <br />
+                                    <strong>Categoría:</strong> @(Model.SeniorTeams[i][j].Category) <br />
+                                    <strong>Mejor Tiempo:</strong> @(Model.SeniorTeams[i][j].BestTime) segundos <br />
+                                    <strong>Estatus:</strong> @(Model.SeniorTeams[i][j].Status ? "Activo" : "Eliminado")
                                 </li>
                             }
                         </ul>

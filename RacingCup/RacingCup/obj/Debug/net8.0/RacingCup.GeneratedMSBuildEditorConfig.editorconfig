@@ -9,57 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RacingCup
 build_property.RootNamespace = RacingCup
-build_property.ProjectDir = C:\Users\edwin\Documents\ASP\RacingCup\RacingCup\
+build_property.ProjectDir = C:\Users\edwin\Documents\ASP\RacingCup_MVC\RacingCup\RacingCup\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\edwin\Documents\ASP\RacingCup\RacingCup
+build_property.MSBuildProjectDirectory = C:\Users\edwin\Documents\ASP\RacingCup_MVC\RacingCup\RacingCup
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/edwin/Documents/ASP/RacingCup/RacingCup/Views/Home/Index.cshtml]
+[C:/Users/edwin/Documents/ASP/RacingCup_MVC/RacingCup/RacingCup/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/edwin/Documents/ASP/RacingCup/RacingCup/Views/Home/Privacy.cshtml]
+[C:/Users/edwin/Documents/ASP/RacingCup_MVC/RacingCup/RacingCup/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/edwin/Documents/ASP/RacingCup/RacingCup/Views/Register/Register.cshtml]
+[C:/Users/edwin/Documents/ASP/RacingCup_MVC/RacingCup/RacingCup/Views/Register/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/edwin/Documents/ASP/RacingCup/RacingCup/Views/Shared/Error.cshtml]
+[C:/Users/edwin/Documents/ASP/RacingCup_MVC/RacingCup/RacingCup/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/edwin/Documents/ASP/RacingCup/RacingCup/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/edwin/Documents/ASP/RacingCup_MVC/RacingCup/RacingCup/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/edwin/Documents/ASP/RacingCup/RacingCup/Views/TournamentTable/JuniorBracket.cshtml]
+[C:/Users/edwin/Documents/ASP/RacingCup_MVC/RacingCup/RacingCup/Views/TournamentTable/JuniorBracket.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cm5hbWVudFRhYmxlXEp1bmlvckJyYWNrZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/edwin/Documents/ASP/RacingCup/RacingCup/Views/TournamentTable/SeniorBracket.cshtml]
+[C:/Users/edwin/Documents/ASP/RacingCup_MVC/RacingCup/RacingCup/Views/TournamentTable/SeniorBracket.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cm5hbWVudFRhYmxlXFNlbmlvckJyYWNrZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/edwin/Documents/ASP/RacingCup/RacingCup/Views/TournamentTable/TournamentTable.cshtml]
+[C:/Users/edwin/Documents/ASP/RacingCup_MVC/RacingCup/RacingCup/Views/TournamentTable/TournamentTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cm5hbWVudFRhYmxlXFRvdXJuYW1lbnRUYWJsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/edwin/Documents/ASP/RacingCup/RacingCup/Views/_ViewImports.cshtml]
+[C:/Users/edwin/Documents/ASP/RacingCup_MVC/RacingCup/RacingCup/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/edwin/Documents/ASP/RacingCup/RacingCup/Views/_ViewStart.cshtml]
+[C:/Users/edwin/Documents/ASP/RacingCup_MVC/RacingCup/RacingCup/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/edwin/Documents/ASP/RacingCup/RacingCup/Views/Shared/_Layout.cshtml]
+[C:/Users/edwin/Documents/ASP/RacingCup_MVC/RacingCup/RacingCup/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-sc2joms583

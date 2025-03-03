@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup\\RacingCup\\RacingCup.csproj",
+      "projectUniqueName": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\RacingCup.csproj",
       "projectName": "RacingCup",
-      "projectPath": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup\\RacingCup\\RacingCup.csproj",
+      "projectPath": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\RacingCup.csproj",
       "packagesPath": "C:\\Users\\edwin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup\\RacingCup\\obj\\",
+      "outputPath": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
