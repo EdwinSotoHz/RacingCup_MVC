@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>666h9sap4y</Fingerprint>
-      <Integrity>frIDkVZYl3IbtUnT0LvgnOQOiE/mgg0xgW9howDT0Vs=</Integrity>
+      <Fingerprint>kyxtajqlt6</Fingerprint>
+      <Integrity>LKcXrnVnUwh+X34nbi+VY1XuPOn2VVI6wPl4wcPne48=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\TournamentTableStyle.css'))</OriginalItemSpec>

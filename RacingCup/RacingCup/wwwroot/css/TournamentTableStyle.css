@@ -6,28 +6,37 @@
 }
 
 #table-tournament {
-    margin: 0px 10%;
-    padding: 10px;
+    margin: 0;
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
     background-color: #f0f0f0;
 }
 
 .table-container {
-    margin: auto;
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    max-width: 100%;
-    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 80vh;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .column-t {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    width: 150px;
+    height: 100%;
+    background-color: rgba(0, 128, 0, 0.5); /* Verde medio transparente */
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .button-t-blue {

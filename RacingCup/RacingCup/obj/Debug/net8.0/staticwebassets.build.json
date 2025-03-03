@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LxFegEX8mL4m1xjXnZv+aoH1C+Gobsq8twVWRgAhgBY=",
+  "Hash": "09f3pQfMp/AtWPm+olVzeEzotlQ+SFw3jBqK61s7c14=",
   "Source": "RacingCup",
   "BasePath": "_content/RacingCup",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "666h9sap4y",
-      "Integrity": "frIDkVZYl3IbtUnT0LvgnOQOiE/mgg0xgW9howDT0Vs=",
+      "Fingerprint": "kyxtajqlt6",
+      "Integrity": "LKcXrnVnUwh+X34nbi+VY1XuPOn2VVI6wPl4wcPne48=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\TournamentTableStyle.css"
@@ -1406,7 +1406,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 03:17:59 GMT"
+          "Value": "Mon, 03 Mar 2025 03:24:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1443,7 +1443,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 03:17:59 GMT"
+          "Value": "Mon, 03 Mar 2025 03:24:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1548,51 +1548,6 @@
       ]
     },
     {
-      "Route": "css/TournamentTableStyle.666h9sap4y.css",
-      "AssetFile": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\css\\TournamentTableStyle.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1413"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"frIDkVZYl3IbtUnT0LvgnOQOiE/mgg0xgW9howDT0Vs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 02:20:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "666h9sap4y"
-        },
-        {
-          "Name": "label",
-          "Value": "css/TournamentTableStyle.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-frIDkVZYl3IbtUnT0LvgnOQOiE/mgg0xgW9howDT0Vs="
-        }
-      ]
-    },
-    {
       "Route": "css/TournamentTableStyle.css",
       "AssetFile": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\css\\TournamentTableStyle.css",
       "Selectors": [],
@@ -1603,7 +1558,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1413"
+          "Value": "1730"
         },
         {
           "Name": "Content-Type",
@@ -1611,11 +1566,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"frIDkVZYl3IbtUnT0LvgnOQOiE/mgg0xgW9howDT0Vs=\""
+          "Value": "\"LKcXrnVnUwh+X34nbi+VY1XuPOn2VVI6wPl4wcPne48=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 02:20:18 GMT"
+          "Value": "Mon, 03 Mar 2025 04:05:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1625,7 +1580,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-frIDkVZYl3IbtUnT0LvgnOQOiE/mgg0xgW9howDT0Vs="
+          "Value": "sha256-LKcXrnVnUwh+X34nbi+VY1XuPOn2VVI6wPl4wcPne48="
+        }
+      ]
+    },
+    {
+      "Route": "css/TournamentTableStyle.kyxtajqlt6.css",
+      "AssetFile": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\css\\TournamentTableStyle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1730"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LKcXrnVnUwh+X34nbi+VY1XuPOn2VVI6wPl4wcPne48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 04:05:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kyxtajqlt6"
+        },
+        {
+          "Name": "label",
+          "Value": "css/TournamentTableStyle.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LKcXrnVnUwh+X34nbi+VY1XuPOn2VVI6wPl4wcPne48="
         }
       ]
     },

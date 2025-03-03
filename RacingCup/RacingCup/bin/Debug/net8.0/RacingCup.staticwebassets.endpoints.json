@@ -111,7 +111,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 03:17:59 GMT"
+          "Value": "Mon, 03 Mar 2025 03:24:09 GMT"
         }
       ],
       "EndpointProperties": [
@@ -148,7 +148,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 03:17:59 GMT"
+          "Value": "Mon, 03 Mar 2025 03:24:09 GMT"
         }
       ],
       "EndpointProperties": [
@@ -167,51 +167,6 @@
       ]
     },
     {
-      "Route": "css/TournamentTableStyle.666h9sap4y.css",
-      "AssetFile": "css/TournamentTableStyle.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1413"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"frIDkVZYl3IbtUnT0LvgnOQOiE/mgg0xgW9howDT0Vs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 02:20:18 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "666h9sap4y"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-frIDkVZYl3IbtUnT0LvgnOQOiE/mgg0xgW9howDT0Vs="
-        },
-        {
-          "Name": "label",
-          "Value": "css/TournamentTableStyle.css"
-        }
-      ]
-    },
-    {
       "Route": "css/TournamentTableStyle.css",
       "AssetFile": "css/TournamentTableStyle.css",
       "Selectors": [],
@@ -226,7 +181,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1413"
+          "Value": "1730"
         },
         {
           "Name": "Content-Type",
@@ -234,17 +189,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"frIDkVZYl3IbtUnT0LvgnOQOiE/mgg0xgW9howDT0Vs=\""
+          "Value": "\"LKcXrnVnUwh+X34nbi+VY1XuPOn2VVI6wPl4wcPne48=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 02:20:18 GMT"
+          "Value": "Mon, 03 Mar 2025 04:05:54 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-frIDkVZYl3IbtUnT0LvgnOQOiE/mgg0xgW9howDT0Vs="
+          "Value": "sha256-LKcXrnVnUwh+X34nbi+VY1XuPOn2VVI6wPl4wcPne48="
+        }
+      ]
+    },
+    {
+      "Route": "css/TournamentTableStyle.kyxtajqlt6.css",
+      "AssetFile": "css/TournamentTableStyle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1730"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LKcXrnVnUwh+X34nbi+VY1XuPOn2VVI6wPl4wcPne48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 04:05:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kyxtajqlt6"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LKcXrnVnUwh+X34nbi+VY1XuPOn2VVI6wPl4wcPne48="
+        },
+        {
+          "Name": "label",
+          "Value": "css/TournamentTableStyle.css"
         }
       ]
     },
