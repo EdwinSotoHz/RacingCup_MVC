@@ -59,5 +59,17 @@
             }
             targetList[row + 1].Add(targetList[row][col]);
         }
+
+        public void SetLoser(int row, int col, string category)
+        {
+            var targetList = (category == "Junior") ? JuniorTeams : SeniorTeams;
+            targetList[row][col].Status = false;
+        }
+
+        public void UpdateBestTime(int row, int col, string category, float bestTime)
+        {
+            var targetList = (category == "Junior") ? JuniorTeams : SeniorTeams;
+            targetList[row][col].BestTime = bestTime;
+        }
     }
 }

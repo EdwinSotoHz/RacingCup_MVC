@@ -8,19 +8,92 @@
             <div class="column-t" style="padding: @((i != 0) ? (124 * (Math.Pow(i, 2) - (i-1)))/2 : "0")px 0px">
                 @for (int j = 0; j < Model.JuniorTeams[i].Count; j++)
                 {
-                    <form method="post" asp-controller="TournamentTable" asp-action="Update">
-                        <input type="hidden" name="row" value="@(i)" />
-                        <input type="hidden" name="col" value="@(j)" />
-                        <input type="hidden" name="category" value="Junior" />
-                        <button class="@((Model.JuniorTeams[i][j].Status) ? "button-t-blue" : "button-t-red")"
-                                type="submit"
-                        @((Model.JuniorTeams.Count - 1 != i) && (Model.JuniorTeams[i].Contains(Model.JuniorTeams[i][j]) && Model.JuniorTeams[i + 1].Contains(Model.JuniorTeams[i][j])) ? "disabled" : "")
-                        @((Model.JuniorTeams[i].Count == 1) || !(Model.JuniorTeams[i][j].Status) ? "disabled" : "")>
-                            @(Model.JuniorTeams[i][j].Name)
-                        </button>
-                    </form>
+                    <button class="@((Model.JuniorTeams[i][j].Status) ? "button-t-blue" : "button-t-red")"
+                            onclick="openModal(@i, @j, 'Junior', @Model.JuniorTeams[i].Count)"
+                    @((Model.JuniorTeams.Count - 1 != i) && (Model.JuniorTeams[i].Contains(Model.JuniorTeams[i][j]) && Model.JuniorTeams[i + 1].Contains(Model.JuniorTeams[i][j])) ? "disabled" : "")
+                    @((Model.JuniorTeams[i].Count == 1) || !(Model.JuniorTeams[i][j].Status) ? "disabled" : "")>
+                        @Model.JuniorTeams[i][j].Name
+                    </button>
                 }
             </div>
         }
     </div>
 </div>
+
+<!-- Ventana Modal -->
+<div id="teamModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h3 id="modalTeamName"></h3>
+        <p><strong>Integrantes:</strong> <span id="modalTeamElements"></span></p>
+        <p><strong>Escuela:</strong> <span id="modalTeamSchool"></span></p>
+        <p><strong>Categoría:</strong> <span id="modalTeamCategory"></span></p>
+        <p><strong>Mejor Tiempo:</strong> <input type="number" step="0.01" id="modalTeamBestTimeInput" /></p>
+        <p><strong>Estatus:</strong> <span id="modalTeamStatus"></span></p>
+        <div class="modal-actions">
+            <form method="post" asp-controller="TournamentTable" asp-action="Update" onsubmit="setBestTime(this)">
+                <input type="hidden" id="modalRow" name="row" />
+                <input type="hidden" id="modalCol" name="col" />
+                <input type="hidden" id="modalCategory" name="category" />
+                <input type="hidden" id="modalBestTime" name="bestTime" />
+                <button type="submit" class="button-t-blue">Clasificar</button>
+            </form>
+            <form method="post" asp-controller="TournamentTable" asp-action="SetLoser" id="formSetLoser" onsubmit="setBestTime(this)">
+                <input type="hidden" id="modalRowLoser" name="row" />
+                <input type="hidden" id="modalColLoser" name="col" />
+                <input type="hidden" id="modalCategoryLoser" name="category" />
+                <input type="hidden" id="modalBestTimeLoser" name="bestTime" />
+                <button type="submit" class="button-t-red">Desclasificar</button>
+            </form>
+            <button class="button-t-secondary" onclick="closeModal()">Cerrar</button>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript para manejar la ventana modal -->
+<script>
+    function openModal(row, col, category, teamCount) {
+        // Obtener los datos del equipo
+        var team = @Json.Serialize(Model.JuniorTeams); // Cambiar a SeniorTeams para la vista Senior
+        team = team[row][col];
+
+        // Mostrar los datos en la ventana modal
+        document.getElementById("modalTeamName").innerText = team.name;
+        document.getElementById("modalTeamElements").innerText = team.elements;
+        document.getElementById("modalTeamSchool").innerText = team.school;
+        document.getElementById("modalTeamCategory").innerText = team.category;
+        document.getElementById("modalTeamBestTimeInput").value = team.bestTime;
+        document.getElementById("modalTeamStatus").innerText = team.status ? "Activo" : "Inactivo";
+
+        // Asignar valores a los campos ocultos
+        document.getElementById("modalRow").value = row;
+        document.getElementById("modalCol").value = col;
+        document.getElementById("modalCategory").value = category;
+
+        document.getElementById("modalRowLoser").value = row;
+        document.getElementById("modalColLoser").value = col;
+        document.getElementById("modalCategoryLoser").value = category;
+
+        // Mostrar u ocultar la opción "Desclasificar"
+        var formSetLoser = document.getElementById("formSetLoser");
+        if (teamCount % 2 !== 0 && col === teamCount - 1) {
+            formSetLoser.style.display = "inline-block"; // Mostrar si el equipo está solo
+        } else {
+            formSetLoser.style.display = "none"; // Ocultar si el equipo tiene pareja
+        }
+
+        // Mostrar la ventana modal
+        document.getElementById("teamModal").style.display = "block";
+    }
+
+    function closeModal() {
+        // Ocultar la ventana modal
+        document.getElementById("teamModal").style.display = "none";
+    }
+
+    // Función para actualizar el mejor tiempo antes de enviar el formulario
+    function setBestTime(form) {
+        var bestTime = document.getElementById("modalTeamBestTimeInput").value;
+        form.querySelector("input[name='bestTime']").value = bestTime;
+    }
+</script>

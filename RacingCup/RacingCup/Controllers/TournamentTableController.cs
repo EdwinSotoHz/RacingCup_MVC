@@ -40,5 +40,19 @@ namespace RacingCup.Controllers
             tournamentTable.SetWinnerOfThisRound(row, col, category);
             return RedirectToAction(category + "Bracket");
         }
+
+        [HttpPost]
+        public ActionResult SetLoser(int row, int col, string category)
+        {
+            tournamentTable.SetLoser(row, col, category);
+            return RedirectToAction(category + "Bracket");
+        }
+
+        [HttpPost]
+        public ActionResult UpdateBestTime(int row, int col, string category, float bestTime)
+        {
+            tournamentTable.UpdateBestTime(row, col, category, bestTime);
+            return RedirectToAction(category + "Bracket");
+        }
     }
 }

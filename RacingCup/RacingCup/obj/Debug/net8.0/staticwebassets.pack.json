@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\RacingCup.2o52i3krhy.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\css\\ModalWindow.css",
+      "PackagePath": "staticwebassets\\css\\ModalWindow.css"
+    },
+    {
       "Id": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\css\\TournamentTableStyle.css",
       "PackagePath": "staticwebassets\\css\\TournamentTableStyle.css"
     },
@@ -15,6 +19,10 @@
     {
       "Id": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\js\\ModalWindow.js",
+      "PackagePath": "staticwebassets\\js\\ModalWindow.js"
     },
     {
       "Id": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\js\\site.js",

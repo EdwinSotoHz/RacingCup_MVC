@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "timMunM6wyMF5x8Fwdg4Hi/NiiYpa0qTfK7uUmJfefw=",
+  "Hash": "LxFegEX8mL4m1xjXnZv+aoH1C+Gobsq8twVWRgAhgBY=",
   "Source": "RacingCup",
   "BasePath": "_content/RacingCup",
   "Mode": "Default",
@@ -59,6 +59,27 @@
       "OriginalItemSpec": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RacingCup.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\css\\ModalWindow.css",
+      "SourceId": "RacingCup",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\",
+      "BasePath": "_content/RacingCup",
+      "RelativePath": "css/ModalWindow#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pepv7zl8ot",
+      "Integrity": "n0rHmsvfFtX3rilKKGaBbhhzL/GkUZfZPA4JAouvuxk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\ModalWindow.css"
+    },
+    {
       "Identity": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\css\\site.css",
       "SourceId": "RacingCup",
       "SourceType": "Discovered",
@@ -94,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ax2fq1c2ya",
-      "Integrity": "cgWV+Zx1d9Ozwsw4a6pVFRCCM5XaWFg5LJJuSafi7YQ=",
+      "Fingerprint": "666h9sap4y",
+      "Integrity": "frIDkVZYl3IbtUnT0LvgnOQOiE/mgg0xgW9howDT0Vs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\TournamentTableStyle.css"
@@ -120,6 +141,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\js\\ModalWindow.js",
+      "SourceId": "RacingCup",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\",
+      "BasePath": "_content/RacingCup",
+      "RelativePath": "js/ModalWindow#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a0c1r0m9sq",
+      "Integrity": "Co6ExthY/AlA3KBCQUVUbME2fcTXN80aqm9Od2T/pKM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\ModalWindow.js"
     },
     {
       "Identity": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\js\\site.js",
@@ -1342,6 +1384,88 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/ModalWindow.css",
+      "AssetFile": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\css\\ModalWindow.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "621"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n0rHmsvfFtX3rilKKGaBbhhzL/GkUZfZPA4JAouvuxk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 03:17:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-n0rHmsvfFtX3rilKKGaBbhhzL/GkUZfZPA4JAouvuxk="
+        }
+      ]
+    },
+    {
+      "Route": "css/ModalWindow.pepv7zl8ot.css",
+      "AssetFile": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\css\\ModalWindow.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "621"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n0rHmsvfFtX3rilKKGaBbhhzL/GkUZfZPA4JAouvuxk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 03:17:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pepv7zl8ot"
+        },
+        {
+          "Name": "label",
+          "Value": "css/ModalWindow.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-n0rHmsvfFtX3rilKKGaBbhhzL/GkUZfZPA4JAouvuxk="
+        }
+      ]
+    },
+    {
       "Route": "css/site.c2tiyv64ts.css",
       "AssetFile": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1424,7 +1548,7 @@
       ]
     },
     {
-      "Route": "css/TournamentTableStyle.ax2fq1c2ya.css",
+      "Route": "css/TournamentTableStyle.666h9sap4y.css",
       "AssetFile": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\css\\TournamentTableStyle.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1434,7 +1558,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1411"
+          "Value": "1413"
         },
         {
           "Name": "Content-Type",
@@ -1442,11 +1566,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cgWV+Zx1d9Ozwsw4a6pVFRCCM5XaWFg5LJJuSafi7YQ=\""
+          "Value": "\"frIDkVZYl3IbtUnT0LvgnOQOiE/mgg0xgW9howDT0Vs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 05:42:04 GMT"
+          "Value": "Mon, 03 Mar 2025 02:20:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1456,7 +1580,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ax2fq1c2ya"
+          "Value": "666h9sap4y"
         },
         {
           "Name": "label",
@@ -1464,7 +1588,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-cgWV+Zx1d9Ozwsw4a6pVFRCCM5XaWFg5LJJuSafi7YQ="
+          "Value": "sha256-frIDkVZYl3IbtUnT0LvgnOQOiE/mgg0xgW9howDT0Vs="
         }
       ]
     },
@@ -1479,7 +1603,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1411"
+          "Value": "1413"
         },
         {
           "Name": "Content-Type",
@@ -1487,11 +1611,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cgWV+Zx1d9Ozwsw4a6pVFRCCM5XaWFg5LJJuSafi7YQ=\""
+          "Value": "\"frIDkVZYl3IbtUnT0LvgnOQOiE/mgg0xgW9howDT0Vs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 05:42:04 GMT"
+          "Value": "Mon, 03 Mar 2025 02:20:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1501,7 +1625,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cgWV+Zx1d9Ozwsw4a6pVFRCCM5XaWFg5LJJuSafi7YQ="
+          "Value": "sha256-frIDkVZYl3IbtUnT0LvgnOQOiE/mgg0xgW9howDT0Vs="
         }
       ]
     },
@@ -1584,6 +1708,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "js/ModalWindow.a0c1r0m9sq.js",
+      "AssetFile": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\js\\ModalWindow.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1366"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Co6ExthY/AlA3KBCQUVUbME2fcTXN80aqm9Od2T/pKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 02:29:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a0c1r0m9sq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/ModalWindow.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Co6ExthY/AlA3KBCQUVUbME2fcTXN80aqm9Od2T/pKM="
+        }
+      ]
+    },
+    {
+      "Route": "js/ModalWindow.js",
+      "AssetFile": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\js\\ModalWindow.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1366"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Co6ExthY/AlA3KBCQUVUbME2fcTXN80aqm9Od2T/pKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 02:29:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Co6ExthY/AlA3KBCQUVUbME2fcTXN80aqm9Od2T/pKM="
         }
       ]
     },
