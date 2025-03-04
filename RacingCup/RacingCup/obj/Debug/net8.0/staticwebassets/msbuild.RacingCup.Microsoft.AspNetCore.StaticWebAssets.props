@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kyxtajqlt6</Fingerprint>
-      <Integrity>LKcXrnVnUwh+X34nbi+VY1XuPOn2VVI6wPl4wcPne48=</Integrity>
+      <Fingerprint>t6fxah4px1</Fingerprint>
+      <Integrity>JXnyo7tZCgZNQhw1eoRIzyUj59EbMFtDPcgXmbsyLkQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\TournamentTableStyle.css'))</OriginalItemSpec>
@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>a0c1r0m9sq</Fingerprint>
-      <Integrity>Co6ExthY/AlA3KBCQUVUbME2fcTXN80aqm9Od2T/pKM=</Integrity>
+      <Fingerprint>iex9ip74vl</Fingerprint>
+      <Integrity>piic4tAFSujimQZrCJOwYMEIQgUnSarYv6Q6bdE8P78=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\ModalWindow.js'))</OriginalItemSpec>

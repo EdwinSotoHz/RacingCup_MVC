@@ -1,32 +1,19 @@
-﻿.my-form {
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-    outline: 0px;
-}
-
-#table-tournament {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-}
-
+﻿/* Estilo del contenedor de la tabla */
 .table-container {
     display: flex;
+    flex-wrap: wrap; /* Permite que las columnas se ajusten en varias filas si es necesario */
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     width: 90%;
     height: 80vh;
     background-color: white;
     border: 1px solid #ccc;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
 }
 
+/* Estilo para las columnas */
 .column-t {
     display: flex;
     flex-direction: column;
@@ -37,9 +24,20 @@
     background-color: rgba(0, 128, 0, 0.5); /* Verde medio transparente */
     border-radius: 10px;
     padding: 10px;
+    margin: 5px; /* Añadir espacio entre las columnas */
+    flex-grow: 1; /* Permite que las columnas crezcan en el espacio disponible */
+    min-width: 150px; /* Mantiene un ancho mínimo para las columnas */
 }
 
-.button-t-blue {
+/* Mover título hacia arriba */
+#table-tournament h2 {
+    text-align: center;
+    margin-bottom: 10px; /* espacio entre el título y la tabla */
+}
+
+/* Botones con tamaño fijo */
+.button-t-blue,
+.button-t-red {
     padding: 12px;
     height: 100px;
     width: 180px;
@@ -50,6 +48,7 @@
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-size: 16px;
 }
 
     .button-t-blue:hover {
@@ -61,18 +60,8 @@
         outline: none;
     }
 
-
 .button-t-red {
-    padding: 12px;
-    height: 100px;
-    width: 180px;
     background-color: #e74c3c;
-    color: white;
-    text-align: center;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
     .button-t-red:hover {
@@ -84,3 +73,21 @@
         outline: none;
     }
 
+.button-t-secondary {
+    padding: 12px;
+    background-color: #8e44ad;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .button-t-secondary:hover {
+        background-color: #732d91;
+    }
+
+    .button-t-secondary:focus {
+        outline: none;
+    }

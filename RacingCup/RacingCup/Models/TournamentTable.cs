@@ -23,6 +23,10 @@
                     targetList[0].Add(new Team(true, "Equipo02", "Integrante5, Integrante6, Integrante7, Integrante8", "Escuela B", category, 11.8f));
                     targetList[0].Add(new Team(true, "Equipo03", "Integrante9, Integrante10, Integrante11, Integrante12", "Escuela C", category, 13.2f));
                     targetList[0].Add(new Team(true, "Equipo04", "Integrante13, Integrante14, Integrante15, Integrante16", "Escuela D", category, 10.9f));
+                    targetList[0].Add(new Team(true, "Equipo05", "Integrante17, Integrante18, Integrante19, Integrante20", "Escuela E", category, 14.3f));
+                    targetList[0].Add(new Team(true, "Equipo06", "Integrante21, Integrante22, Integrante23, Integrante24", "Escuela F", category, 9.7f));
+                    targetList[0].Add(new Team(true, "Equipo07", "Integrante25, Integrante26, Integrante27, Integrante28", "Escuela G", category, 12.0f));
+                    // teams[0].Add(new Team(true, "Equipo08", "Integrante29, Integrante30, Integrante31, Integrante32", "Escuela H", category, 10.5f));
                 }
             }
 

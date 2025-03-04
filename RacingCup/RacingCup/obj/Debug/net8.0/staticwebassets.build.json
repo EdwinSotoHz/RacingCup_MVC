@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ODHhfwy+siTeYHc43ttccUhiFumnvnwcu7BKXDAkaio=",
+  "Hash": "RCext9iP7qjK8EnqDprwZ4HkPBlRVo/lBstgFMqTjg4=",
   "Source": "RacingCup",
   "BasePath": "_content/RacingCup",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "kyxtajqlt6",
-      "Integrity": "LKcXrnVnUwh+X34nbi+VY1XuPOn2VVI6wPl4wcPne48=",
+      "Fingerprint": "t6fxah4px1",
+      "Integrity": "JXnyo7tZCgZNQhw1eoRIzyUj59EbMFtDPcgXmbsyLkQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\TournamentTableStyle.css"
@@ -157,8 +157,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "a0c1r0m9sq",
-      "Integrity": "Co6ExthY/AlA3KBCQUVUbME2fcTXN80aqm9Od2T/pKM=",
+      "Fingerprint": "iex9ip74vl",
+      "Integrity": "piic4tAFSujimQZrCJOwYMEIQgUnSarYv6Q6bdE8P78=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\ModalWindow.js"
@@ -1406,7 +1406,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 03:24:09 GMT"
+          "Value": "Tue, 04 Mar 2025 04:50:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1443,7 +1443,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 03:24:09 GMT"
+          "Value": "Tue, 04 Mar 2025 04:50:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1558,7 +1558,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1730"
+          "Value": "2230"
         },
         {
           "Name": "Content-Type",
@@ -1566,11 +1566,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LKcXrnVnUwh+X34nbi+VY1XuPOn2VVI6wPl4wcPne48=\""
+          "Value": "\"JXnyo7tZCgZNQhw1eoRIzyUj59EbMFtDPcgXmbsyLkQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 04:08:26 GMT"
+          "Value": "Tue, 04 Mar 2025 04:56:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1580,12 +1580,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-LKcXrnVnUwh+X34nbi+VY1XuPOn2VVI6wPl4wcPne48="
+          "Value": "sha256-JXnyo7tZCgZNQhw1eoRIzyUj59EbMFtDPcgXmbsyLkQ="
         }
       ]
     },
     {
-      "Route": "css/TournamentTableStyle.kyxtajqlt6.css",
+      "Route": "css/TournamentTableStyle.t6fxah4px1.css",
       "AssetFile": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\css\\TournamentTableStyle.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1595,7 +1595,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1730"
+          "Value": "2230"
         },
         {
           "Name": "Content-Type",
@@ -1603,11 +1603,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LKcXrnVnUwh+X34nbi+VY1XuPOn2VVI6wPl4wcPne48=\""
+          "Value": "\"JXnyo7tZCgZNQhw1eoRIzyUj59EbMFtDPcgXmbsyLkQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 04:08:26 GMT"
+          "Value": "Tue, 04 Mar 2025 04:56:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1617,7 +1617,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kyxtajqlt6"
+          "Value": "t6fxah4px1"
         },
         {
           "Name": "label",
@@ -1625,7 +1625,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-LKcXrnVnUwh+X34nbi+VY1XuPOn2VVI6wPl4wcPne48="
+          "Value": "sha256-JXnyo7tZCgZNQhw1eoRIzyUj59EbMFtDPcgXmbsyLkQ="
         }
       ]
     },
@@ -1712,7 +1712,7 @@
       ]
     },
     {
-      "Route": "js/ModalWindow.a0c1r0m9sq.js",
+      "Route": "js/ModalWindow.iex9ip74vl.js",
       "AssetFile": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\js\\ModalWindow.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1722,7 +1722,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1366"
+          "Value": "1941"
         },
         {
           "Name": "Content-Type",
@@ -1730,11 +1730,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Co6ExthY/AlA3KBCQUVUbME2fcTXN80aqm9Od2T/pKM=\""
+          "Value": "\"piic4tAFSujimQZrCJOwYMEIQgUnSarYv6Q6bdE8P78=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 02:29:35 GMT"
+          "Value": "Tue, 04 Mar 2025 04:45:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1744,7 +1744,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "a0c1r0m9sq"
+          "Value": "iex9ip74vl"
         },
         {
           "Name": "label",
@@ -1752,7 +1752,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Co6ExthY/AlA3KBCQUVUbME2fcTXN80aqm9Od2T/pKM="
+          "Value": "sha256-piic4tAFSujimQZrCJOwYMEIQgUnSarYv6Q6bdE8P78="
         }
       ]
     },
@@ -1767,7 +1767,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1366"
+          "Value": "1941"
         },
         {
           "Name": "Content-Type",
@@ -1775,11 +1775,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Co6ExthY/AlA3KBCQUVUbME2fcTXN80aqm9Od2T/pKM=\""
+          "Value": "\"piic4tAFSujimQZrCJOwYMEIQgUnSarYv6Q6bdE8P78=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 02:29:35 GMT"
+          "Value": "Tue, 04 Mar 2025 04:45:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1789,7 +1789,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Co6ExthY/AlA3KBCQUVUbME2fcTXN80aqm9Od2T/pKM="
+          "Value": "sha256-piic4tAFSujimQZrCJOwYMEIQgUnSarYv6Q6bdE8P78="
         }
       ]
     },

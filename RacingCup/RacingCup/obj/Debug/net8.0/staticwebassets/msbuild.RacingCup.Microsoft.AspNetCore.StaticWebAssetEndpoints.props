@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\ModalWindow.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-n0rHmsvfFtX3rilKKGaBbhhzL/GkUZfZPA4JAouvuxk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"621"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022n0rHmsvfFtX3rilKKGaBbhhzL/GkUZfZPA4JAouvuxk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 03:24:09 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"621"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022n0rHmsvfFtX3rilKKGaBbhhzL/GkUZfZPA4JAouvuxk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 04 Mar 2025 04:50:40 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RacingCup/css/ModalWindow.pepv7zl8ot.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\ModalWindow.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pepv7zl8ot"},{"Name":"integrity","Value":"sha256-n0rHmsvfFtX3rilKKGaBbhhzL/GkUZfZPA4JAouvuxk="},{"Name":"label","Value":"_content/RacingCup/css/ModalWindow.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"621"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022n0rHmsvfFtX3rilKKGaBbhhzL/GkUZfZPA4JAouvuxk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 03:24:09 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"621"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022n0rHmsvfFtX3rilKKGaBbhhzL/GkUZfZPA4JAouvuxk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 04 Mar 2025 04:50:40 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RacingCup/css/site.c2tiyv64ts.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
@@ -27,14 +27,14 @@
     <StaticWebAssetEndpoint Include="_content/RacingCup/css/TournamentTableStyle.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\TournamentTableStyle.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-LKcXrnVnUwh\u002BX34nbi\u002BVY1XuPOn2VVI6wPl4wcPne48="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1730"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LKcXrnVnUwh\u002BX34nbi\u002BVY1XuPOn2VVI6wPl4wcPne48=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 04:08:26 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JXnyo7tZCgZNQhw1eoRIzyUj59EbMFtDPcgXmbsyLkQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2230"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022JXnyo7tZCgZNQhw1eoRIzyUj59EbMFtDPcgXmbsyLkQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 04 Mar 2025 04:56:27 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/RacingCup/css/TournamentTableStyle.kyxtajqlt6.css">
+    <StaticWebAssetEndpoint Include="_content/RacingCup/css/TournamentTableStyle.t6fxah4px1.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\TournamentTableStyle.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kyxtajqlt6"},{"Name":"integrity","Value":"sha256-LKcXrnVnUwh\u002BX34nbi\u002BVY1XuPOn2VVI6wPl4wcPne48="},{"Name":"label","Value":"_content/RacingCup/css/TournamentTableStyle.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1730"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LKcXrnVnUwh\u002BX34nbi\u002BVY1XuPOn2VVI6wPl4wcPne48=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 04:08:26 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"t6fxah4px1"},{"Name":"integrity","Value":"sha256-JXnyo7tZCgZNQhw1eoRIzyUj59EbMFtDPcgXmbsyLkQ="},{"Name":"label","Value":"_content/RacingCup/css/TournamentTableStyle.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2230"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022JXnyo7tZCgZNQhw1eoRIzyUj59EbMFtDPcgXmbsyLkQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 04 Mar 2025 04:56:27 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RacingCup/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -48,17 +48,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Feb 2025 18:21:52 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/RacingCup/js/ModalWindow.a0c1r0m9sq.js">
+    <StaticWebAssetEndpoint Include="_content/RacingCup/js/ModalWindow.iex9ip74vl.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\ModalWindow.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"a0c1r0m9sq"},{"Name":"integrity","Value":"sha256-Co6ExthY/AlA3KBCQUVUbME2fcTXN80aqm9Od2T/pKM="},{"Name":"label","Value":"_content/RacingCup/js/ModalWindow.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1366"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Co6ExthY/AlA3KBCQUVUbME2fcTXN80aqm9Od2T/pKM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 02:29:35 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"iex9ip74vl"},{"Name":"integrity","Value":"sha256-piic4tAFSujimQZrCJOwYMEIQgUnSarYv6Q6bdE8P78="},{"Name":"label","Value":"_content/RacingCup/js/ModalWindow.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1941"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022piic4tAFSujimQZrCJOwYMEIQgUnSarYv6Q6bdE8P78=\u0022"},{"Name":"Last-Modified","Value":"Tue, 04 Mar 2025 04:45:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RacingCup/js/ModalWindow.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\ModalWindow.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Co6ExthY/AlA3KBCQUVUbME2fcTXN80aqm9Od2T/pKM="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1366"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Co6ExthY/AlA3KBCQUVUbME2fcTXN80aqm9Od2T/pKM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 02:29:35 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-piic4tAFSujimQZrCJOwYMEIQgUnSarYv6Q6bdE8P78="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1941"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022piic4tAFSujimQZrCJOwYMEIQgUnSarYv6Q6bdE8P78=\u0022"},{"Name":"Last-Modified","Value":"Tue, 04 Mar 2025 04:45:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RacingCup/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
