@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6081A32-A02A-4439-9E35-D670163A8D70}|RacingCup\\RacingCup.csproj|c:\\users\\edwin\\documents\\asp\\racingcup_mvc\\racingcup\\racingcup\\models\\tournamenttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6081A32-A02A-4439-9E35-D670163A8D70}|RacingCup\\RacingCup.csproj|solutionrelative:racingcup\\models\\tournamenttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6081A32-A02A-4439-9E35-D670163A8D70}|RacingCup\\RacingCup.csproj|c:\\users\\edwin\\documents\\asp\\racingcup_mvc\\racingcup\\racingcup\\controllers\\tournamenttablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6081A32-A02A-4439-9E35-D670163A8D70}|RacingCup\\RacingCup.csproj|solutionrelative:racingcup\\controllers\\tournamenttablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B6081A32-A02A-4439-9E35-D670163A8D70}|RacingCup\\RacingCup.csproj|c:\\users\\edwin\\documents\\asp\\racingcup_mvc\\racingcup\\racingcup\\views\\tournamenttable\\juniorbracket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B6081A32-A02A-4439-9E35-D670163A8D70}|RacingCup\\RacingCup.csproj|solutionrelative:racingcup\\views\\tournamenttable\\juniorbracket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6081A32-A02A-4439-9E35-D670163A8D70}|RacingCup\\RacingCup.csproj|c:\\users\\edwin\\documents\\asp\\racingcup_mvc\\racingcup\\racingcup\\views\\tournamenttable\\seniorbracket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B6081A32-A02A-4439-9E35-D670163A8D70}|RacingCup\\RacingCup.csproj|solutionrelative:racingcup\\views\\tournamenttable\\seniorbracket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6081A32-A02A-4439-9E35-D670163A8D70}|RacingCup\\RacingCup.csproj|c:\\users\\edwin\\documents\\asp\\racingcup_mvc\\racingcup\\racingcup\\models\\tournamenttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6081A32-A02A-4439-9E35-D670163A8D70}|RacingCup\\RacingCup.csproj|solutionrelative:racingcup\\models\\tournamenttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6081A32-A02A-4439-9E35-D670163A8D70}|RacingCup\\RacingCup.csproj|c:\\users\\edwin\\documents\\asp\\racingcup_mvc\\racingcup\\racingcup\\controllers\\tournamenttablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6081A32-A02A-4439-9E35-D670163A8D70}|RacingCup\\RacingCup.csproj|solutionrelative:racingcup\\controllers\\tournamenttablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6081A32-A02A-4439-9E35-D670163A8D70}|RacingCup\\RacingCup.csproj|c:\\users\\edwin\\documents\\asp\\racingcup_mvc\\racingcup\\racingcup\\wwwroot\\js\\modalwindow.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "TournamentTableController.cs",
               "DocumentMoniker": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\Controllers\\TournamentTableController.cs",
               "RelativeDocumentMoniker": "RacingCup\\Controllers\\TournamentTableController.cs",
@@ -58,8 +58,7 @@
               "RelativeToolTip": "RacingCup\\Controllers\\TournamentTableController.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAcwDkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T05:51:28.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T05:51:28.056Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "RacingCup\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T05:21:54.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T05:21:54.05Z"
             },
             {
               "$type": "Document",
@@ -84,31 +82,30 @@
               "RelativeToolTip": "RacingCup\\wwwroot\\js\\ModalWindow.js",
               "ViewState": "AgIAABcAAAAAAAAAAAAqwBoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-04T04:36:35.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T04:36:35.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "SeniorBracket.cshtml",
               "DocumentMoniker": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\Views\\TournamentTable\\SeniorBracket.cshtml",
               "RelativeDocumentMoniker": "RacingCup\\Views\\TournamentTable\\SeniorBracket.cshtml",
               "ToolTip": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\Views\\TournamentTable\\SeniorBracket.cshtml",
               "RelativeToolTip": "RacingCup\\Views\\TournamentTable\\SeniorBracket.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAC8AAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-04T04:35:22.272Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "JuniorBracket.cshtml",
               "DocumentMoniker": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\Views\\TournamentTable\\JuniorBracket.cshtml",
               "RelativeDocumentMoniker": "RacingCup\\Views\\TournamentTable\\JuniorBracket.cshtml",
               "ToolTip": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\Views\\TournamentTable\\JuniorBracket.cshtml",
               "RelativeToolTip": "RacingCup\\Views\\TournamentTable\\JuniorBracket.cshtml",
-              "ViewState": "AgIAABoAAAAAAAAAAAAUwCwAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-04T04:26:43.491Z",
               "EditorCaption": ""
@@ -123,12 +120,11 @@
               "RelativeToolTip": "RacingCup\\wwwroot\\css\\ModalWindow.css",
               "ViewState": "AgIAAEgAAAAAAAAAAAAAAFYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-04T04:30:47.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T04:30:47.056Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "TournamentTable.cs",
               "DocumentMoniker": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\Models\\TournamentTable.cs",
               "RelativeDocumentMoniker": "RacingCup\\Models\\TournamentTable.cs",
@@ -149,8 +145,7 @@
               "RelativeToolTip": "RacingCup\\wwwroot\\css\\TournamentTableStyle.css",
               "ViewState": "AgIAAD8AAAAAAAAAAAAAAEcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-04T04:27:08.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T04:27:08.36Z"
             }
           ]
         }
