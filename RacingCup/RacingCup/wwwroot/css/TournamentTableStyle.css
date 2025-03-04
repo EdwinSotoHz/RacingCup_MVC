@@ -1,11 +1,12 @@
 ﻿/* Estilo del contenedor de la tabla */
 .table-container {
+    margin: auto;
     display: flex;
     flex-wrap: wrap; /* Permite que las columnas se ajusten en varias filas si es necesario */
     justify-content: space-around;
     align-items: flex-start;
     width: 90%;
-    height: 80vh;
+    height: 90vh;
     background-color: white;
     border: 1px solid #ccc;
     padding: 20px;
@@ -15,6 +16,7 @@
 
 /* Estilo para las columnas */
 .column-t {
+    max-width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -23,8 +25,8 @@
     height: 100%;
     background-color: rgba(0, 128, 0, 0.5); /* Verde medio transparente */
     border-radius: 10px;
-    padding: 10px;
-    margin: 5px; /* Añadir espacio entre las columnas */
+    padding: 5px;
+    margin: 0px 10px; /* Añadir espacio entre las columnas */
     flex-grow: 1; /* Permite que las columnas crezcan en el espacio disponible */
     min-width: 150px; /* Mantiene un ancho mínimo para las columnas */
 }
@@ -39,8 +41,8 @@
 .button-t-blue,
 .button-t-red {
     padding: 12px;
-    height: 100px;
-    width: 180px;
+    height: 90px;
+    width: 200px;
     background-color: #2980b9;
     color: white;
     text-align: center;
@@ -48,7 +50,7 @@
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    font-size: 16px;
+    font-size: 18px;
 }
 
     .button-t-blue:hover {

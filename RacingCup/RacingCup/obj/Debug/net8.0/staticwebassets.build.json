@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RCext9iP7qjK8EnqDprwZ4HkPBlRVo/lBstgFMqTjg4=",
+  "Hash": "j79xWSQiGZ9exAUBIa8+3EweSzKEw3mF1GZwLyTLJeQ=",
   "Source": "RacingCup",
   "BasePath": "_content/RacingCup",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "pepv7zl8ot",
-      "Integrity": "n0rHmsvfFtX3rilKKGaBbhhzL/GkUZfZPA4JAouvuxk=",
+      "Fingerprint": "1v6kwnuohb",
+      "Integrity": "vRtuPq8JY6pdI006UAJHiALqNTLwE4fzwatmzr8sYgU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\ModalWindow.css"
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "t6fxah4px1",
-      "Integrity": "JXnyo7tZCgZNQhw1eoRIzyUj59EbMFtDPcgXmbsyLkQ=",
+      "Fingerprint": "mfoqzew4mn",
+      "Integrity": "zgYKlIISJ2rDKjk/Sjz7fKUy2McrlgbJ7OfY4mZVyvU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\TournamentTableStyle.css"
@@ -141,6 +141,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\js\\DrawLines.js",
+      "SourceId": "RacingCup",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\",
+      "BasePath": "_content/RacingCup",
+      "RelativePath": "js/DrawLines#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iex9ip74vl",
+      "Integrity": "piic4tAFSujimQZrCJOwYMEIQgUnSarYv6Q6bdE8P78=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\DrawLines.js"
     },
     {
       "Identity": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\js\\ModalWindow.js",
@@ -1384,6 +1405,51 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/ModalWindow.1v6kwnuohb.css",
+      "AssetFile": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\css\\ModalWindow.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2182"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vRtuPq8JY6pdI006UAJHiALqNTLwE4fzwatmzr8sYgU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 05:38:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1v6kwnuohb"
+        },
+        {
+          "Name": "label",
+          "Value": "css/ModalWindow.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vRtuPq8JY6pdI006UAJHiALqNTLwE4fzwatmzr8sYgU="
+        }
+      ]
+    },
+    {
       "Route": "css/ModalWindow.css",
       "AssetFile": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\css\\ModalWindow.css",
       "Selectors": [],
@@ -1394,7 +1460,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "621"
+          "Value": "2182"
         },
         {
           "Name": "Content-Type",
@@ -1402,11 +1468,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"n0rHmsvfFtX3rilKKGaBbhhzL/GkUZfZPA4JAouvuxk=\""
+          "Value": "\"vRtuPq8JY6pdI006UAJHiALqNTLwE4fzwatmzr8sYgU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 04:50:40 GMT"
+          "Value": "Tue, 04 Mar 2025 05:38:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1416,52 +1482,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-n0rHmsvfFtX3rilKKGaBbhhzL/GkUZfZPA4JAouvuxk="
-        }
-      ]
-    },
-    {
-      "Route": "css/ModalWindow.pepv7zl8ot.css",
-      "AssetFile": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\css\\ModalWindow.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "621"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"n0rHmsvfFtX3rilKKGaBbhhzL/GkUZfZPA4JAouvuxk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 04:50:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pepv7zl8ot"
-        },
-        {
-          "Name": "label",
-          "Value": "css/ModalWindow.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-n0rHmsvfFtX3rilKKGaBbhhzL/GkUZfZPA4JAouvuxk="
+          "Value": "sha256-vRtuPq8JY6pdI006UAJHiALqNTLwE4fzwatmzr8sYgU="
         }
       ]
     },
@@ -1558,7 +1579,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2230"
+          "Value": "2275"
         },
         {
           "Name": "Content-Type",
@@ -1566,11 +1587,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JXnyo7tZCgZNQhw1eoRIzyUj59EbMFtDPcgXmbsyLkQ=\""
+          "Value": "\"zgYKlIISJ2rDKjk/Sjz7fKUy2McrlgbJ7OfY4mZVyvU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 04:56:27 GMT"
+          "Value": "Tue, 04 Mar 2025 05:13:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1580,12 +1601,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JXnyo7tZCgZNQhw1eoRIzyUj59EbMFtDPcgXmbsyLkQ="
+          "Value": "sha256-zgYKlIISJ2rDKjk/Sjz7fKUy2McrlgbJ7OfY4mZVyvU="
         }
       ]
     },
     {
-      "Route": "css/TournamentTableStyle.t6fxah4px1.css",
+      "Route": "css/TournamentTableStyle.mfoqzew4mn.css",
       "AssetFile": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\css\\TournamentTableStyle.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1595,7 +1616,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2230"
+          "Value": "2275"
         },
         {
           "Name": "Content-Type",
@@ -1603,11 +1624,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JXnyo7tZCgZNQhw1eoRIzyUj59EbMFtDPcgXmbsyLkQ=\""
+          "Value": "\"zgYKlIISJ2rDKjk/Sjz7fKUy2McrlgbJ7OfY4mZVyvU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 04:56:27 GMT"
+          "Value": "Tue, 04 Mar 2025 05:13:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1617,7 +1638,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "t6fxah4px1"
+          "Value": "mfoqzew4mn"
         },
         {
           "Name": "label",
@@ -1625,7 +1646,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JXnyo7tZCgZNQhw1eoRIzyUj59EbMFtDPcgXmbsyLkQ="
+          "Value": "sha256-zgYKlIISJ2rDKjk/Sjz7fKUy2McrlgbJ7OfY4mZVyvU="
         }
       ]
     },
@@ -1708,6 +1729,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "js/DrawLines.iex9ip74vl.js",
+      "AssetFile": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\js\\DrawLines.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1941"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"piic4tAFSujimQZrCJOwYMEIQgUnSarYv6Q6bdE8P78=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 04:45:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iex9ip74vl"
+        },
+        {
+          "Name": "label",
+          "Value": "js/DrawLines.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-piic4tAFSujimQZrCJOwYMEIQgUnSarYv6Q6bdE8P78="
+        }
+      ]
+    },
+    {
+      "Route": "js/DrawLines.js",
+      "AssetFile": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\js\\DrawLines.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1941"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"piic4tAFSujimQZrCJOwYMEIQgUnSarYv6Q6bdE8P78=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 04:45:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-piic4tAFSujimQZrCJOwYMEIQgUnSarYv6Q6bdE8P78="
         }
       ]
     },

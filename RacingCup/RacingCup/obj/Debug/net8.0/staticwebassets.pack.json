@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\js\\DrawLines.js",
+      "PackagePath": "staticwebassets\\js\\DrawLines.js"
+    },
+    {
       "Id": "C:\\Users\\edwin\\Documents\\ASP\\RacingCup_MVC\\RacingCup\\RacingCup\\wwwroot\\js\\ModalWindow.js",
       "PackagePath": "staticwebassets\\js\\ModalWindow.js"
     },

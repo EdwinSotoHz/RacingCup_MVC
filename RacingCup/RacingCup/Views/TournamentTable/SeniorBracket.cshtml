@@ -1,4 +1,5 @@
 ﻿@model RacingCup.Models.TournamentTable
+<link rel="stylesheet" href="~/css/ModalWindow.css" />
 
 <div id="table-tournament">
     <h2>Tournament Teams - Senior</h2>
@@ -36,19 +37,20 @@
                 <input type="hidden" id="modalCol" name="col" />
                 <input type="hidden" id="modalCategory" name="category" />
                 <input type="hidden" id="modalBestTime" name="bestTime" />
-                <button type="submit" class="button-t-blue">Clasificar</button>
+                <button type="submit" class="button-classify">Clasificar</button>
             </form>
             <form method="post" asp-controller="TournamentTable" asp-action="SetLoser" id="formSetLoser" onsubmit="setBestTime(this)">
                 <input type="hidden" id="modalRowLoser" name="row" />
                 <input type="hidden" id="modalColLoser" name="col" />
                 <input type="hidden" id="modalCategoryLoser" name="category" />
                 <input type="hidden" id="modalBestTimeLoser" name="bestTime" />
-                <button type="submit" class="button-t-red">Desclasificar</button>
+                <button type="submit" class="button-disenroll">Desclasificar</button>
             </form>
             <button class="button-t-secondary" onclick="closeModal()">Cerrar</button>
         </div>
     </div>
 </div>
+
 
 <script>
     var teamsData = @Html.Raw(Json.Serialize(Model.JuniorTeams));
